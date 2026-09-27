@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rastreador de Habitos e Contador de Sequencia</title>
+  <meta name="description" content="Acompanhe habitos diarios e veja suas sequencias crescerem com uma interface elegante em modo escuro e efeito glassmorphism." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="glass">
+    <h1>Rastreador de Habitos</h1>
+  </header>
+
+  <main>
+    <section class="add-habit glass">
+      <input type="text" id="habit-name" placeholder="Novo habito (ex.: Beber agua)" />
+      <button id="add-habit-btn">Adicionar Habito</button>
+    </section>
+
+    <section id="habits-container" class="glass">
+      <!-- Os habitos serao renderizados aqui -->
+    </section>
+  </main>
+
+  <footer class="glass">
+    <p>Construido com amor usando HTML, CSS e JavaScript puro.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
